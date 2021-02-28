@@ -166,6 +166,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="intro" class="section level1" number="2">
 <h1><span class="header-section-number">Chapter 2</span> Introduction</h1>
+<p>Everything with Python and R</p>
 <p>You can label chapter and section titles using <code>{#label}</code> after them, e.g., we can reference Chapter <a href="intro.html#intro">2</a>. If you do not manually label them, there will be automatic labels anyway, e.g., Chapter <a href="methods.html#methods">4</a>.</p>
 <p>Figures and tables with captions will be placed in <code>figure</code> and <code>table</code> environments, respectively.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="intro.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mar =</span> <span class="fu">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, .<span class="dv">1</span>, .<span class="dv">1</span>))</span>
@@ -336,6 +337,24 @@ Figure 2.1: Here is a nice figure!
 </tbody>
 </table>
 <p>You can write citations, too. For example, we are using the <strong>bookdown</strong> package <span class="citation">(<a href="references.html#ref-R-bookdown" role="doc-biblioref">Xie 2020</a>)</span> in this sample book, which was built on top of R Markdown and <strong>knitr</strong> <span class="citation">(<a href="references.html#ref-xie2015" role="doc-biblioref">Xie 2015</a>)</span>.</p>
+<div class="figure">
+<img src="01-intro_insertimage_1.png" alt="" />
+<p class="caption">Plot title.</p>
+</div>
+<p>In conventional contrast AF, ISP calculates the correct adjustment of focus by finding out highest contrast of colors through continuous trials and errors. Phase Detecting AF technology, once only available in premium DSLR cameras, is now available on mobile devices. ISP with PDAF solution calculates the distance from the object and finds the correct adjustment allowing camera to focus at once.</p>
+<p><img src="images/paste-9CE857F3.png" /></p>
+<p>Both Jupyter and Rstudio support the paste images. Best practice than the addin.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="intro.html#cb4-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_url</span>(<span class="st">&quot;https://yihui.org&quot;</span>)</span></code></pre></div>
+<iframe src="https://yihui.org" width="672" height="400px">
+</iframe>
+<pre><code>knitr::include_app(&quot;https://yihui.shinyapps.io/miniUI/&quot;, 
+  height = &quot;600px&quot;)</code></pre>
+<div class="juxtapose">
+    <img src="https://alexioannides.github.io/images/data_science/mcmc_vi_pymc3/output_36_0.png" />
+    <img src="https://alexioannides.github.io/images/data_science/mcmc_vi_pymc3/output_38_0.png" />
+</div>
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
 
 </div>
             </section>
@@ -386,7 +405,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"download": null,
 "toc": {
 "collapse": "subsection"
 }

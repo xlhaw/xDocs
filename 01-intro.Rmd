@@ -1,5 +1,7 @@
 # Introduction {#intro}
 
+Everything with Python and R
+
 You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
 
 Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
@@ -19,3 +21,27 @@ knitr::kable(
 ```
 
 You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+
+![Plot title.](01-intro_insertimage_1.png)
+
+In conventional contrast AF, ISP calculates the correct adjustment of focus by finding out highest contrast of colors through continuous trials and errors. Phase Detecting AF technology, once only available in premium DSLR cameras, is now available on mobile devices. ISP with PDAF solution calculates the distance from the object and finds the correct adjustment allowing camera to focus at once.
+
+![](images/paste-9CE857F3.png)
+
+Both Jupyter and Rstudio support the paste images. Best practice than the addin.
+
+```{r}
+knitr::include_url("https://yihui.org")
+```
+
+    knitr::include_app("https://yihui.shinyapps.io/miniUI/", 
+      height = "600px")
+
+```{=html}
+<div class="juxtapose">
+    <img src="https://alexioannides.github.io/images/data_science/mcmc_vi_pymc3/output_36_0.png" />
+    <img src="https://alexioannides.github.io/images/data_science/mcmc_vi_pymc3/output_38_0.png" />
+</div>
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+```
